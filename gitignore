@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment output (participant data and generated plots)
+output/*
+!output/windowing_results/
+output/windowing_results/*
+!output/windowing_results/.gitkeep
+evaluation/
